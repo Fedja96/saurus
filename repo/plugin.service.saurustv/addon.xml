@@ -1,0 +1,11 @@
+<addon id="plugin.service.saurustv" version="1.0.0" name="SaurusTV Code Sperre" provider-name="SaurusTV">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">PIN-Sicherung bei Start</summary>
+        <description lang="de">Fragt beim Start von Kodi einen serverdefinierten PIN ab und speichert die Freigabe für 14 Tage.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

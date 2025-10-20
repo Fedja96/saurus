@@ -1,0 +1,8 @@
+<settings>
+  <category label="Server">
+    <setting id="config_url" type="text" label="Config URL (HTTPS)" default="https://panel.stvselect.xyz/kodi/pin.json"/>
+    <setting id="startup_delay" type="number" label="Start-Verzögerung (Sek)" default="3"/>
+    <setting id="fallback_pin" type="text" label="Fallback-PIN (optional)" default="171025"/>
+    <setting id="show_success" type="bool" label="Erfolgsmeldung anzeigen" default="true"/>
+  </category>
+</settings>
